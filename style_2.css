@@ -1,0 +1,93 @@
+.calc {
+    margin: 50px auto;
+    width: 300px;
+    height: 500px;
+    border: 1px solid #5cd8d2;
+    border-radius: 10px;
+    background: #5cd8d2;
+    color: #fff;
+     font-family: Arial;
+     padding: 19px;
+     box-shadow: 10px 10px 10px #5cd8d29f;
+ }
+
+ .calc-screen {
+   height: 125px;
+   padding: 10px;
+   display: grid;
+   justify-items: end;
+   align-items: end;
+   margin-bottom: 22px ;
+ }
+
+ .calc-screen p {
+   text-align: right;
+   font-size: 4rem;
+   margin: 0;
+ }
+
+ .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*grid-template-areas: 
+    "seven eigth nine plus"
+    "four five six minus"
+    "one two three multiplication"
+    "null doublenull dot division"
+    "clearall equal equal equal ";*/
+    grid-gap: 7px;
+    justify-items: center;
+ }
+  .btn {
+     width: 60px;
+     height: 60px;  
+     background: #1792e4be; 
+     border-radius: 10%;
+     text-align: center;
+     line-height: 60px;
+     font-size: 1.5rem;
+     cursor: pointer;
+     user-select: none;
+     box-shadow: 2px 3px 2px #160f77be;
+  }
+
+  .equal {
+    grid-column: span 3;
+    width: 213px;
+    border-radius: 6px;
+    box-shadow: 2px 3px 2px rgb(189, 139, 1);
+  }
+  
+
+  .bg_red {
+   background: rgb(245, 86, 86);
+   box-shadow: 2px 3px 2px  rgb(151, 37, 37);
+   
+  }
+
+  .clear_all {
+   font-size: 20px;
+  }
+ 
+  .btn:hover {
+     filter: brightness(120%);
+  }
+ 
+  .btn:active {
+     filter: brightness(100%);
+     box-shadow: 0.5px 0.5px 1px #c0207800;
+  }
+  .bg_blue {
+    background-color: #31d3a2;
+    box-shadow: 2px 3px 2px #208d6c;
+  
+  }
+  .btn.bg_purple {
+    background-color: rgb(255, 187, 0);
+  }
+.btn.multiplication {
+  font-size: 30px;
+}
+.btn.minus {
+  font-size: 30px;
+}
