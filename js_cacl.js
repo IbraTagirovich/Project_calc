@@ -79,7 +79,7 @@ document.querySelector('.buttons').onclick = (event) => {
                 break;
         }
         finish = true;
-        out.textContent = a.toFixed(6);
+        out.textContent = a.toFixed(2);
         console.log(a,b,sign);
         
     }
