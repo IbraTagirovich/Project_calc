@@ -1,8 +1,8 @@
 .calc {
     margin: 50px auto;
     width: 300px;
-    height: 500px;
-    border: 1px solid #5cd8d2;
+    height: 450px;
+    border: 2px solid #1792e4be;
     border-radius: 10px;
     background: #5cd8d2;
     color: #fff;
@@ -12,7 +12,7 @@
  }
 
  .calc-screen {
-   height: 125px;
+   height: 74px;
    padding: 10px;
    display: grid;
    justify-items: end;
@@ -25,6 +25,11 @@
    font-size: 4rem;
    margin: 0;
  }
+ .calc-screen {
+  background: #1792e4be;
+  border-radius: 6px;
+  filter: opacity(100%);
+ }
 
  .buttons {
     display: grid;
@@ -35,7 +40,7 @@
     "one two three multiplication"
     "null doublenull dot division"
     "clearall equal equal equal ";*/
-    grid-gap: 7px;
+    grid-gap: 9px;
     justify-items: center;
  }
   .btn {

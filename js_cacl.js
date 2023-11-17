@@ -36,12 +36,13 @@ document.querySelector('.buttons').onclick = (event) => {
         else if (a!=='' && b!=='' && finish){
             b = key;
             finish = false;
-            out.textContent = b;
+            out.textContent = b;           
 
         }
         else {
             b += key;
             out.textContent = b;
+            
         }
     
         console.log(a,b,sign);
@@ -78,7 +79,7 @@ document.querySelector('.buttons').onclick = (event) => {
                 break;
         }
         finish = true;
-        out.textContent = a;
+        out.textContent = a.toFixed(6);
         console.log(a,b,sign);
         
     }
